@@ -2,7 +2,7 @@
 
 session_start();
 if (isset($_SESSION['username'])) {
-    header("Location: index.php");
+    header("Location: chat.php");
 }
 
 ?>
@@ -25,7 +25,7 @@ if (isset($_SESSION['username'])) {
         <div class="container h-100">
             <div class="row justify-content-evenly align-items-center" id="cardrow">
                 <div class="col-auto">
-                    <img src="./pic/yeh.jpg" alt="">
+                    <img src="./img/yeh.jpg" alt="">
                 </div>
                 <div class="col-md-8 col-lg-6 col-xl-5 col-xxl-4">
                     <div class="card" id="card">
