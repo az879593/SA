@@ -56,6 +56,11 @@
                             <div class="mb-2">
                                 <button class="btn btn-outline-primary mt-3 w-100" type="submit" name="submit" id="register">Sign Up</button>
                             </div>
+
+                            <div>Already have an account?
+                                <br>
+                                <a href="signin.php" class="link-primary">Sign In</a>
+                            </div>
                         </div>
                     </div>
                 </div>

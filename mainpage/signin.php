@@ -49,7 +49,7 @@ if (isset($_SESSION['username'])) {
 
                             <div>Don't have an account?
                                 <br>
-                                <a href="../useraccount/registeration.php" class="link-primary">Sign Up</a>
+                                <a href="signup.php" class="link-primary">Sign Up</a>
                             </div>
 
                         </div>
