@@ -2,16 +2,16 @@
 session_start();
 
 if (!isset($_SESSION['username'])) {
-    header("Location: ../userlogin/login.php");
+    header("Location: signin.php");
 }
 
 if (isset($_GET['logout'])) {
     session_destroy();
     unset($_SESSION);
-    header("Location: ../userlogin/login.php");
+    header("Location: signin.php");
 }
 
-echo "welcome bitxch";
+echo "welcome " . $_SESSION['username'];
 
 ?>
 
