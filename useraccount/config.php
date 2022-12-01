@@ -1,12 +1,12 @@
 <?php
 
 $db_user = "root";
-$db_pass = "az879593";
+$db_pass = "";
 $db_name = "useraccount";
 
 
 try{
-    $dsn = "mysql:host=localhost;dbname=$db_name; charset = utf-8";
+    $dsn = "mysql:host=localhost:3307;dbname=$db_name; charset = utf-8";
     $db = new PDO($dsn, $db_user, $db_pass);
     $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 }catch(PDOException $e){

@@ -13,7 +13,8 @@ if (isset($_POST)) {
     $nickname = $_POST['nickname'];
     $phonenumber = $_POST['phonenumber'];
     $email = $_POST['email'];
-    
+ 
+    //SIGNUPCTRL
     $sql = "CALL sp_UserRegister(?, ?, ?, ?, ?)";
     $stmt = $db->prepare($sql);
     $result = $stmt->execute([$username, $password, $nickname, $phonenumber, $email]);
