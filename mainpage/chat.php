@@ -28,7 +28,7 @@ if (!isset($_SESSION['username'])) {
                     <img src="img/peo.jpg" alt="This is the photo" width="60%">
                 </div>
 
-                <div class="title">BAYMAX</div>
+                <div class="title"><?php echo $_SESSION['nickname'] ?></div>
 
                 <div class="icon" align="right">
                     <img src="img/search.png" alt="This is a icon">
@@ -42,10 +42,6 @@ if (!isset($_SESSION['username'])) {
                     <li>Match
                     <li>
                     <li class="active">Chat
-                    <li>
-                    <li>Shop
-                    <li>
-                    <li>Forum
                     <li>
                 </ul>
             </div>
