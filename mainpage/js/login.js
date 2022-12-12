@@ -21,7 +21,7 @@ $('#login').click(function (e) {
                     window.location.href = "index.php"
                 }
                 if ($.trim(data) == "2") {
-                    $('#message').html("帳號或密碼錯誤");
+                    $('#message').html.append("帳號或密碼錯誤");
                 }
 
             },
