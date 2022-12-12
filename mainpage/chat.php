@@ -46,46 +46,33 @@ if (!isset($_SESSION['username'])) {
                 </ul>
             </div>
 
-            <div class="message">
-                <div class="avatar">
-                    <img src="img/alien.jpg" alt="This is the photo">
-                </div>
-                <div class="friend">
-                    <div class="user">Alien</div>
-                    <div class="text">Hello</div>
-                </div>
+            <div class="chatlist">
+                <!-- <div class="message">
+                    <div class="avatar">
+                        <img src="img/alien.jpg" alt="This is the photo">
+                    </div>
+                    <div class="friend">
+                        <div class="user">Alien</div>
+                        <div class="text">Hello</div>
+                    </div>
+                </div> -->
             </div>
-
-
-            <div class="message">
-                <div class="avatar">
-                    <img src="img/pooh.jpg" alt="This is the photo">
-                </div>
-                <div class="friend">
-                    <div class="user">Pooh</div>
-                    <div class="text">Do you want to take some honey?</div>
-                </div>
-            </div>
-
-            <div class="message">
-                <div class="avatar">
-                    <img src="img/woody.webp" alt="This is the photo">
-                </div>
-                <div class="friend">
-                    <div class="user">Woody</div>
-                    <div class="text">There is a snake in your boot!</div>
-                </div>
-            </div>
+            
         </div>
 
 
         <div class = "content">
-            
+            <a href="../classes/LogoutInc.php">logout</a>
         </div>
     </div>
 
 
-    <a href="../classes/LogoutInc.php">logout</a>
+    
 </body>
 
 </html>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="js/chatuser.js"></script>
