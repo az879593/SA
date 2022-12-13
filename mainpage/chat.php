@@ -57,17 +57,17 @@ if (!isset($_SESSION['username'])) {
                     </div>
                 </div> -->
             </div>
-            
+
         </div>
 
 
-        <div class = "content">
+        <div class="content">
             <a href="../classes/LogoutInc.php">logout</a>
         </div>
     </div>
 
 
-    
+
 </body>
 
 </html>
@@ -76,3 +76,14 @@ if (!isset($_SESSION['username'])) {
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="js/chatuser.js"></script>
+
+
+<!-- <div class="message" onclick="clickUser('. $this->id .')">
+    <div class="avatar">
+        <img src="img/alien.jpg" alt="This is the photo">
+    </div>
+    <div class="friend">
+        <div class="user">'. $this->nickname .'</div>
+        <div class="text">Hello</div>
+    </div>
+</div> -->

@@ -9,7 +9,7 @@ $('#register').click(function (e) {
         var phonenumber = $('#phonenumber').val();
         var email = $('#email').val();
         var submit = $('#register').val();
-
+        alert(submit);
         e.preventDefault();
 
         $.ajax({
