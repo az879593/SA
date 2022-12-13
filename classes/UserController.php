@@ -15,7 +15,7 @@ class UserController extends User{
         $this->nickname = $this->getUserNickName();
         $this->id = $this->getUserId();
         $output = '';
-        $temp ='<div class="message">
+        $temp ='<div class="message" onclick = "clickUser('. $this->id .')">
                     <div class="avatar">
                         <img src="img/alien.jpg" alt="This is the photo">
                     </div>
@@ -38,6 +38,11 @@ class UserController extends User{
         $output .= $temp;
         $output .= $temp;
         $output .= $temp;
+        $output .= $temp;
+        $output .= $temp;
+        $output .= $temp;
+        $output .= $temp;
+
         return $output;
     }
 

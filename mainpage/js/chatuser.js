@@ -11,5 +11,9 @@ function loadUser(){
         }       
     });
 }
+
+function clickUser(userID){
+    alert(userID);
+}
 loadUser();
 
